@@ -19,3 +19,4 @@ $disabledMailboxesWithOOO = Get-Mailbox -ResultSize Unlimited | Where-Object { $
 }
 #Output the results
 $disabledMailboxesWithOOO | Select-Object DisplayName,PrimarySmtpAddress
+
